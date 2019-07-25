@@ -31,3 +31,11 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  text-align: center;
+  color: red;
+}
+ul li{
+  text-align: center;
+}

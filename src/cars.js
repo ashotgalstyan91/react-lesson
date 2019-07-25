@@ -4,7 +4,8 @@ class Cars extends Component {
     render() {
         return (
             <ul>
-                <li></li>
+                <li>{this.props.title}</li>
+                <li>{this.props.lro}</li>
             </ul>
         )
       }

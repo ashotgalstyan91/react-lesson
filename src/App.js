@@ -8,7 +8,9 @@ export class App extends Component {
   constructor() {
     super();
     this.state = {
-      title: 'facintyu'
+      title: 'facintyu',
+      name: "ktuc",
+      age: "78"
 
     }
   }
@@ -17,7 +19,8 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <Head title= {this.state}/>
+        <Head title= {this.state.name}
+               lro = {this.state.age} />
       </div>
 
     );
